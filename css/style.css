@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+    font-family: 'Open-sans',sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+#page {
+
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    background: #000 url(../images/header-full.jpg) no-repeat center center;
+    height: 500px;
+}
