@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
@@ -12,6 +14,15 @@ body {
     max-width: 1550px;
     margin: 0 auto;
     position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    margin-bottom: 60px;
+    padding-bottom: 3px;
+                          
 }
 
 
@@ -59,9 +70,10 @@ nav a:hover {
 /* landing page */
 
 #hero {
-    color: #FFF;
-    background: url(../images/header-full.jpg) no-repeat top center fixed;
+    color: skyblue;
+    background: url(../images/pexels.jpeg) no-repeat fixed;
     height: 650px;
+    background-size: cover;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -72,46 +84,39 @@ nav a:hover {
     padding-top: 300px;
     padding-bottom: 30px;
     margin-bottom: 10px;
-    margin-top:10px;
-}
+    margin-top: 10px;
+    text-decoration: none;}
 
 #hero a {
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 200;
     text-decoration: none;
-    color: #FFF;
+    color: #F5F5F5;
     border: 2px solid #FFF;
     padding: 10px 20px;
 }
 
 #hero a:hover {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
 
 /* SErvices */
 
 #Services {
-
     max-height: 600px;
     padding: 0 60px;
-    padding-bottom: 60px;    
-}
-
-#Services h1 {
-    text-align: center;
-    font-size: 40px;
-    padding-top: 30px;
-    margin-bottom: 15px;
-    padding-bottom: 5px;
-    text-decoration: underline slateblue;
+    padding-bottom: 60px;
 }
 
 #Services h2 {
     text-align: left;
     text-decoration: underline;
     color: skyblue;
+    margin-top: 0px;
 }
+
 #SerContain {
     display: flex;
     flex-wrap: wrap;
@@ -120,18 +125,62 @@ nav a:hover {
     justify-content: space-around;
 }
 
-#SerContain .serv{
+#SerContain .serv {
     flex: 1;
     padding: 0 30px;
 }
 
+
+/* Works section */
+
 #Works {
-    display: flex;
-    flex-direction: row;
-    height: 600px;
+    background-color: #F5F5F5;
+    border: 0.3px solid #BEBEBE;
 }
 
-#Works aside {
-    width: 40px;
-    flex:1
+#Works h1 {
+    margin-bottom: 80px;
+}
+
+#WorkContain {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 25%;
+    justify-content: center;
+}
+
+#WorkContain .workcol {
+    flex: 1;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+#Works aside img {
+    width: 250px;
+    height: 230px;
+    border: 0.8px solid #808080;
+}
+
+
+/* About section */
+
+#About {
+    height: 300px;
+}
+
+#About p {
+    margin: 0 40px;
+}
+
+#Contact {
+    background-color: #555;
+}
+
+#Contact h1 {
+    color: #F5F5F5;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px 0px 10px 60px;
+    margin-bottom: 0px;
 }
